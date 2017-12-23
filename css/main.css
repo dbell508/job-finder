@@ -1,0 +1,170 @@
+/*.dropdown{
+	position:relative;
+	display: inline-block;
+}*/
+
+body{
+	background-color: #F1F1F1;
+	margin: 0;
+}
+
+#projectMasthead {
+	height: 100vh;
+	background-image: url('../img/hero.png');
+	background-size: cover;
+	background-color: #054B6D;
+	color: #fff;
+}
+
+.headline {
+	margin: 225px auto 20px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+#projectMasthead > .headline > h1{
+	font-weight: 700;
+}
+
+#projectMasthead > .headline > h1 > span {
+	font-weight: 300;
+}
+
+#projectMasthead > .headline > p {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+#industryDropdown {
+	width: 400px;
+	padding: 10px;
+	border-radius: 0;
+	background-image: none;
+	box-shadow: none;
+	border: 1px solid #fff;
+	opacity: .85;
+}
+
+
+/*Dropdown Content (hidden by default)*/
+.dropdown-content{
+	display: none;
+	margin: 1px auto;
+	width: 400px;
+	z-index: 1;
+	border: 1px solid #555;
+	border-radius: 0 0 5px 5px;
+	background-color: #fff;
+	opacity: .85;
+}
+
+/*Dropdown links*/
+.dropdown-content a {
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+}
+
+.dropdown-content > a > i {
+	float: left;
+}
+
+/*Use this class in Javascript to show content*/
+.show {
+	display: block;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.headerStyle {
+	background-color: #054B6D;
+	height: 200px;
+	text-align: center;
+	color: #fff;
+}
+
+.jobHeadline {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding-top: 80px;
+}
+
+.jobTitle {
+	font-size: 22px;
+	color: #054B6D;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.company {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.salary {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+
+/*#list {
+	margin: 50px 50px;
+}*/
+
+.list {
+	margin: 75px auto;
+	width: 92%;
+}
+
+.box {
+	display: inline-block;
+	padding: 50px 20px;
+	text-align: center;
+	background-color: #fff;
+	margin: 5px 5px;
+	width: 375px;
+	height: 375px;
+}
+
+.thumbnail {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+
+footer {
+	background-color: #054B6D;
+	height: 100px;
+	padding-top: 40px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
+
+.footer {
+	margin-top: 50px;
+	background-color: #054B6D;
+	height: 100px;
+	padding-top: 40px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #fff;
+
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
